@@ -105,7 +105,7 @@ background-color: hsl(233, 47%, 7%);
     font-size: 13px;
   }
   .card-img {
-    border-radius: 0 5px 5px 0;
+    border-radius: 5px 5px 0 0;
     width: 100%;
    
     background: linear-gradient(
@@ -115,6 +115,7 @@ background-color: hsl(233, 47%, 7%);
       ),
       url(./images/image-header-mobile.jpg) center no-repeat;
     background-size: cover;
+      min-height: 300px;
   }
    .desc {
   
@@ -157,7 +158,5 @@ background-color: hsl(233, 47%, 7%);
   
 }
  
-.card-img{
-  order: -1;
-}
+
 }
